@@ -363,7 +363,7 @@ img {
 }
 
 .customers-list-item {
-    width: calc((100%-120px)/6);
+    width: calc((100% - 120px)/6);
     height: 88px;
 }
 
@@ -613,14 +613,17 @@ img {
 }
 
 .footer-subscribe-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
-    min-width: 165px;
-    height: 40px;
     background-color: var(--iris-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -633,7 +636,10 @@ img {
     background-color: var(--green-color);
 }
 
-.subscribe-button {}
+.footer-button-icon {
+    margin-left: 16px;
+    fill: var(--white-color);
+}
 
 /* ---------------MODAL-------------------- */
 
@@ -851,6 +857,5 @@ img {
     font-size: 12px;
     line-height: 1.3;
     letter-spacing: 0.04em;
-    text-decoration: underline;
     color: var(--iris-color);
 }
