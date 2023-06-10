@@ -795,7 +795,7 @@ img {
 }
 
 .check-text {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     font-weight: 400;
     font-size: 12px;
