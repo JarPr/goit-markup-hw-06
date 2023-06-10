@@ -236,15 +236,6 @@ img {
     flex-basis: calc((100% - 72px)/ 4);
 }
 
-/* .advantages-list-item::before {
-    display: block;
-    content: '';
-    height: 112px;
-    background-color: var(--cloud-color);
-    background-size: contain;
-    margin-bottom: 8px;
-} */
-
 .advantages-icon {
     display: flex;
     height: 112px;
