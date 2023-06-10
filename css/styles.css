@@ -574,13 +574,13 @@ img {
 
 .footer-subscribe-field {
     display: flex;
+    gap: 24px;
 }
 
 .footer-subscribe-input {
     width: 264px;
     height: 40px;
     padding: 8px 16px;
-    margin-right: 24px;
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
@@ -596,7 +596,7 @@ img {
 .footer-subscribe-input::placeholder {
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
 }
