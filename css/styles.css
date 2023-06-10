@@ -737,6 +737,8 @@ img {
     border-radius: 4px;
     padding-left: 38px;
     outline: transparent;
+    background-color: transparent;
+    transition: border-color var(--transition-timing-function);
 }
 
 .modal-input:focus {
@@ -749,9 +751,10 @@ img {
 
 .input-icon {
     position: absolute;
-    left: 10px;
+    left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill var(--transition-timing-function);
 }
 
 .comment-field {
@@ -764,13 +767,15 @@ img {
     padding: 8px 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--backdrop-color);
     border: 1px solid var(--backdrop-color);
     border-radius: 4px;
     outline: transparent;
     resize: none;
+    background-color: transparent;
+    transition: border-color var(--transition-timing-function)
 }
 
 .modal-comment::placeholder {
@@ -805,12 +810,11 @@ img {
     border: 1px solid var(--backdrop-color);
     border-radius: 2px;
     margin-right: 8px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
-    ;
+    transition: background-color var(--transition-timing-function), border var(--transition-timing-function), fill var(--transition-timing-function);
 }
 
 .modal-check:checked+.check-text span {
