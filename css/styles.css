@@ -583,7 +583,7 @@ img {
     padding: 8px 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
     border: 1px solid var(--white-color);
@@ -717,7 +717,7 @@ img {
 }
 
 .input-label {
-    display: inline-block;
+    display: block;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
